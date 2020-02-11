@@ -21,6 +21,13 @@ public class PruebaEmpleado
 		System.out.printf( "mediante Empleado.obtenerCuenta(): %d\n", 
 				Empleado.obtenerCuenta() );
 		
+		// obtiene los nombres de los Empleados
+		System.out.println( "\nEmpleados después de instanciar: " );
+		System.out.printf( "mediante e1.obtenerCuenta(): %d\n", e1.obtenerCuenta() );
+		System.out.printf( "mediante e2.obtenerCuenta(): %d\n", e2.obtenerCuenta() );
+		System.out.printf( "mediante Empleado.obtenerCuenta(): %d\n", 
+				Empleado.obtenerCuenta() );
+		
 	} // Fin main
 	
 } // Fin PruebaEmpleado
