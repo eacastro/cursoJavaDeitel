@@ -1,3 +1,5 @@
+package miembrosStatic;
+
 public class Empleado 
 {
 	
