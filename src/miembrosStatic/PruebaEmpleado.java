@@ -33,6 +33,20 @@ public class PruebaEmpleado
 				e1.obtenerPrimerNombre(), e1.obtenerApellidoPaterno(),
 				e2.obtenerPrimerNombre(), e2.obtenerApellidoPaterno() );
 		
+		// en este ejemplo, solo hay una referencia a cada Empleado,
+		// por lo que las siguientes dos instrucciones hacen que la JVM
+		// marque a cada objeto Empleado para la recolección de basura
+		e1 = null;
+		e2 = null;
+		
+		System.gc(); // Pide que la recolección de basura se realice ahora
+		
+		// Muestra la cuenta de Empleados después de llamar al recolector de basura;
+		// la cuenta a mostrar puede ser 0, 1 o 2 dependiendo de si el recolector de
+		// basura se ejecuta de inmediato, y del número de objetos Empleado recolectados
+		System.out.printf( "\nEmpleados despues de System.gc(): %d\n",
+				Empleado.obtenerCuenta() );
+		
 	} // Fin main
 	
 } // Fin PruebaEmpleado
