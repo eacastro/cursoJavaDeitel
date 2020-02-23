@@ -11,7 +11,7 @@ public class Incremento
 	public Incremento( int valorIncremento ) 
 	{
 		
-		
+		INCREMENTO = valorIncremento;
 		
 	} // Fin del constructor Incremento
 	
