@@ -11,8 +11,15 @@ public class Incremento
 	public Incremento( int valorIncremento ) 
 	{
 		
-		INCREMENTO = valorIncremento;
+		INCREMENTO = valorIncremento; // Inicializa la variable constante (una vez)
 		
 	} // Fin del constructor Incremento
+	
+	public void sumarIncrementoATotal() 
+	{
+		
+		total += INCREMENTO;
+		
+	} // Fin del método sumarIncrementoATotal
 	
 } // Fin de la clase Incremento
