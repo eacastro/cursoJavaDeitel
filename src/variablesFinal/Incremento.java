@@ -15,11 +15,20 @@ public class Incremento
 		
 	} // Fin del constructor Incremento
 	
+	// Suma INCREMENTO al total
 	public void sumarIncrementoATotal() 
 	{
 		
 		total += INCREMENTO;
 		
 	} // Fin del método sumarIncrementoATotal
+	
+	// Devuelve representación String de los datos de un objeto Incremento
+	public String toString()
+	{
+		
+		return String.format( "total = %d", total );
+		
+	} // Fin del método toString
 	
 } // Fin de la clase Incremento
