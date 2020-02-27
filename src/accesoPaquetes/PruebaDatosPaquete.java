@@ -17,6 +17,9 @@ public class PruebaDatosPaquete
 		datosPaquete.numero = 77;
 		datosPaquete.cadena = "Adios";
 		
+		// Imprime la representación String de datosPaquete
+		System.out.printf( "\nDespues de modificar valores:\n%s\n", datosPaquete );
+		
 	} // Fin del metodo main	
 	
 } // Fin de la clase PruebaDatosPaquete
