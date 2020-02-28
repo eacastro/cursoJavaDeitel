@@ -14,6 +14,13 @@ public class EmpleadoBaseMasComision extends EmpleadoPorComision
 		
 	} // Fin del método constructor
 	
+	public void establecerSalarioBase( double salario )
+	{
+		
+		salarioBase = ( salario < 0.0 ) ? 0.0 : salario;
+		
+	} // Fin del método establecerSalarioBase
+	
 	
 	
 	
