@@ -10,7 +10,18 @@ public class EmpleadoBaseMasComision
 {
 	
 	private double salarioBase; // Salario base por semana
+	private EmpleadoPorComision empleado; // Composicion
+	
+	// Método constructor
+	public EmpleadoBaseMasComision( double salario )
+	{
+		
+		
+		
+	} // Fin del método constructor
 	
 	
+	
+
 
 }
