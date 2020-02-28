@@ -31,6 +31,13 @@ public class EmpleadoPorComision extends Object // Hacemos explícita la herencia
 		
 	} // Fin del método establecerPrimerNombre
 	
+	public String obtenerPrimerNombre() 
+	{
+		
+		return primerNombre
+		
+	} // Fin del método obtenerPrimerNombre
+	
 	
 	
 	
