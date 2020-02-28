@@ -20,8 +20,12 @@ public class EmpleadoBaseMasComision
 		
 	} // Fin del método constructor
 	
+	public void establecerSalarioBase( double salario )
+	{
+		
+		// Valida que el salario sea positivo
+		salarioBase = ( salario < 0.0 ) ? 0.0 : salario;
+		
+	} // Fin del método establecerSalarioBase
 	
-	
-
-
-}
+} // Fin de la clase EmpleadoBaseMasComision
