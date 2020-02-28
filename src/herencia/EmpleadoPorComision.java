@@ -81,6 +81,13 @@ public class EmpleadoPorComision extends Object // Hacemos explícita la herencia
 		
 	} // Fin del método obtenerVentasBrutas
 	
+	public void establecerTarifaComision( double tarifa )
+	{
+		
+		tarifaComision = ( tarifa > 0.0 && tarifa < 1.0 ) ? tarifa : 0.0;
+		
+	} // Fin del método establecerTarifaComision
+	
 	
 	
 } // Fin clase EmpleadoPorComision
