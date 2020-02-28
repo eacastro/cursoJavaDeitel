@@ -74,6 +74,13 @@ public class EmpleadoPorComision extends Object // Hacemos explícita la herencia
 	} // Fin del método establecerVentasBrutas
 	
 	
+	public double obtenerVentasBrutas()
+	{
+		
+		return ventasBrutas;
+		
+	} // Fin del método obtenerVentasBrutas
+	
 	
 	
 } // Fin clase EmpleadoPorComision
