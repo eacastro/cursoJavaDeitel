@@ -28,6 +28,13 @@ public class EmpleadoBaseMasComision extends EmpleadoPorComision
 		
 	} // Fin del método obtenerSalarioBase
 	
+	public double ingresos()
+	{
+		
+		return obtenerSalarioBase() + ( super.obtenerTarifaComision() * obtenerVentasBrutas() );
+		
+	} // Fin del método ingresos
+	
 	
 	
 	
