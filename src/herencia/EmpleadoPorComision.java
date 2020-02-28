@@ -59,6 +59,13 @@ public class EmpleadoPorComision extends Object // Hacemos explícita la herencia
 		
 	} // Fin del método establecerNumeroSeguroSocial
 	
+	public String obtenerNumeroSeguroSocial()
+	{
+		
+		return numeroSeguroSocial;
+		
+	} // Fin del método obtenerNumeroSeguroSocial
+	
 	
 	
 	
