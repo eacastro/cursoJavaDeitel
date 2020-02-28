@@ -104,5 +104,15 @@ public class EmpleadoPorComision extends Object // Hacemos explícita la herencia
 		
 	} // Fin del método ingresos
 	
-	
+	public String toString()
+	{
+		
+		return String.format( "%s: %s %s\n%s: %s\n%s: %.2f\n%s: %.2f",
+				"empleado por comision", primerNombre, apellidoPaterno,
+				"numero de seguro social", numeroSeguroSocial,
+				"ventas brutas", ventasBrutas,
+				"tarifa de comisión", tarifaComision );
+		
+	} // Fin del método toString
+		
 } // Fin clase EmpleadoPorComision
