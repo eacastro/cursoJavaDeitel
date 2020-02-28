@@ -66,8 +66,12 @@ public class EmpleadoPorComision extends Object // Hacemos explícita la herencia
 		
 	} // Fin del método obtenerNumeroSeguroSocial
 	
-	
-	
+	public void establecerVentasBrutas( double ventas )
+	{
+		
+		ventasBrutas = ( ventas < 0.0 ) ? 0.0 : ventas;
+		
+	} // Fin del método establecerVentasBrutas
 	
 	
 	
