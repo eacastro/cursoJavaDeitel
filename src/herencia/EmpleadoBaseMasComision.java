@@ -35,6 +35,14 @@ public class EmpleadoBaseMasComision extends EmpleadoPorComision
 		
 	} // Fin del método ingresos
 	
+	public String toString()
+	{
+		
+		return super.toString() + String.format( "%s: %.2f", 
+				"Salario base", salarioBase );
+		
+	} // Fin del método toString
+	
 	
 	
 	
