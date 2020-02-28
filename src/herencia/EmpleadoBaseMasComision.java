@@ -1,6 +1,6 @@
 package herencia;
 
-public class EmpleadoBaseMasComision
+public class EmpleadoBaseMasComision extends EmpleadoPorComision
 {
 	
 	
