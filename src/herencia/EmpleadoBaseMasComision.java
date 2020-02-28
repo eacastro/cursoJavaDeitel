@@ -21,6 +21,13 @@ public class EmpleadoBaseMasComision extends EmpleadoPorComision
 		
 	} // Fin del método establecerSalarioBase
 	
+	public double obtenerSalarioBase()
+	{
+		
+		return salarioBase;
+		
+	} // Fin del método obtenerSalarioBase
+	
 	
 	
 	
