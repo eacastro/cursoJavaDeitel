@@ -45,6 +45,20 @@ public class EmpleadoPorComision extends Object // Hacemos explícita la herencia
 		
 	} // Fin del método establecerApellidoPaterno
 	
+	public String obtenerApellidoPaterno()
+	{
+			
+		return apellidoPaterno;
+		
+	} // Fin del método obtenerApellidoPaterno
+	
+	public void establecerNumeroSeguroSocial( String nss )
+	{
+		
+		numeroSeguroSocial = nss;
+		
+	} // Fin del método establecerNumeroSeguroSocial
+	
 	
 	
 	
