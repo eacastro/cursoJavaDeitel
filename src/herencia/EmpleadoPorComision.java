@@ -96,4 +96,13 @@ public class EmpleadoPorComision extends Object // Hacemos explícita la herencia
 		
 	} // Fin del método obtenerTarifaComision
 	
+	// Devuelve los ingresos de un EmpleadoPorComision
+	public double ingresos()
+	{
+		
+		return tarifaComision * ventasBrutas;
+		
+	} // Fin del método ingresos
+	
+	
 } // Fin clase EmpleadoPorComision
