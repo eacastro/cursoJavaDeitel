@@ -34,9 +34,16 @@ public class EmpleadoPorComision extends Object // Hacemos explícita la herencia
 	public String obtenerPrimerNombre() 
 	{
 		
-		return primerNombre
+		return primerNombre;
 		
 	} // Fin del método obtenerPrimerNombre
+	
+	public void establecerApellidoPaterno( String apellido ) 
+	{
+		
+		apellidoPaterno = apellido;
+		
+	} // Fin del método establecerApellidoPaterno
 	
 	
 	
