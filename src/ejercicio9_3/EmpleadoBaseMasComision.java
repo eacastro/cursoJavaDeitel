@@ -10,7 +10,11 @@ public class EmpleadoBaseMasComision
 {
 	
 	private double salarioBase; // Salario base por semana
-	private EmpleadoPorComision empleado; // Composicion
+	/*	La variable de instancia empleado la dejo con acceso
+	 * 	público ya que sus propias variables de instancia
+	 * 	están encapsuladas y ocultadas al código cliente.
+	 * */
+	public EmpleadoPorComision empleado; // Aplicamos la composicion aquí
 	
 	// Método constructor
 	public EmpleadoBaseMasComision( String nombre, String apellido,
