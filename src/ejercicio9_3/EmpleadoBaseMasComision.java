@@ -13,10 +13,12 @@ public class EmpleadoBaseMasComision
 	private EmpleadoPorComision empleado; // Composicion
 	
 	// Método constructor
-	public EmpleadoBaseMasComision( double salario )
+	public EmpleadoBaseMasComision( String nombre, String apellido,
+			String nss, double ventas, double tarifa, double salario )
 	{
 		
-		
+		salarioBase = salario;
+		empleado = new EmpleadoPorComision( )
 		
 	} // Fin del método constructor
 	
