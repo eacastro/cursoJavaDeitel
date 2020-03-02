@@ -18,7 +18,8 @@ public class EmpleadoBaseMasComision
 	{
 		
 		salarioBase = salario;
-		empleado = new EmpleadoPorComision( )
+		empleado = new EmpleadoPorComision( nombre, apellido, nss,
+				ventas, salario );
 		
 	} // Fin del método constructor
 	
